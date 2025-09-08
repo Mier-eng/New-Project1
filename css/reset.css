@@ -1,0 +1,245 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+ font-style: normal;
+}
+
+@media (min-width: 1440px) {
+  .burger_btn {
+    display: none;
+  }
+}
+
+
+@media (max-width:1300px) {
+    .main-img{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+     .burger_btn {
+        display: flex; 
+       
+    }
+     .burger_btn {
+        margin-right: 32px;
+        margin-right: 0; /* Удаляем отступ, так как кнопка теперь фиксирована */
+     
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   
+}
+@media (max-width: 1024px) {
+  .Reeding__house {
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .The__marble__staircase{
+ height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .container3 {
+    padding-top: 0;
+  }
+  .Reeding__house-text {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .nav {
+    column-gap: 30px;
+  }
+
+  .Wishbone__title {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .Wishbone h1 {
+    font-size: 45px;
+    line-height: 56px;
+  }
+  .Wishbone__title h3 {
+    text-align: center;
+  }
+  .Wishbone button {
+    color: rgba(27, 26, 26, 1);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+  .Our__firm-title {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0;
+    margin-top: 50px;
+  }
+  .Our__firm-text {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .img-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+}
+@media (max-width:1023px) {
+    .ske__fin__bui {
+    align-items: center;
+  display: flex; 
+flex-direction: column;
+}
+.ske__fin__bui p {
+  padding-bottom: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .burger_btn {
+    display: flex;
+  }
+
+  .Wishbone__title {
+    padding: 40px;
+  }
+  .Our__firm-title {
+    column-gap: 50px;
+  }
+
+  .Reeding__house-text {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .burger_btn {
+    margin-right: 0;
+  }
+  .menu__logo {
+    padding-left: 0;
+  }
+}
+
