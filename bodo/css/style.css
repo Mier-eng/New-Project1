@@ -1,0 +1,320 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  box-shadow: 11px 11px 25px 0px rgba(9, 7, 37, 0.06);
+  background: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 355px;
+}
+.menu {
+  display: flex;
+  padding: 35px 0;
+}
+.menu__logo {
+  padding-left: 32px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.menu__item {
+  padding-right: 32px;
+}
+
+.Wishbone {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background: rgba(236, 231, 228, 1);
+}
+.Wishbone h3 {
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.Wishbone h1 {
+  color: rgba(27, 26, 26, 1);
+  padding-bottom: 18px;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70.4px;
+}
+.Wishbone p {
+  color: rgba(64, 62, 59, 1);
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Wishbone button {
+  color: rgba(27, 26, 26, 1);
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 20px;
+  padding-left: 45px;
+}
+.Wishbone__title {
+  padding-top: 77px;
+  padding-right: 60px;
+  padding-left: 40px;
+  width: 610px;
+  margin-left: 60px;
+}
+
+.Our__firm-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  column-gap: 133px;
+}
+.Our__firm-text {
+  max-width: 490px;
+}
+.Our__firm-text p {
+  color: rgba(64, 62, 59, 1);
+  padding-bottom: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Our__firm-title h2 {
+  color: rgba(64, 62, 59, 1);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.img-info {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.img-info h3 {
+  color: rgba(27, 26, 26, 1);
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 275;
+}
+.img-info p {
+  color: rgba(27, 26, 26, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 275;
+}
+
+.Reeding__house {
+  position: relative;
+  margin-top: 100px;
+  height: 600px;
+  background-image: url("../images/IMAGE.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.The__marble__staircase{
+   position: relative;
+  margin-top: 100px;
+  height: 600px;
+  background-image: url("../images/IMAGE 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container3 {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 266px;
+}
+.Reeding__house-text {
+  max-width: 300px;
+  margin-right: 60px;
+  padding-right: 15px;
+  text-align: left;
+}
+.Reeding__house-text h3 {
+  color: rgba(64, 62, 59, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.Reeding__house-text p {
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nav.active .menu {
+    display: flex; /* Или block, если вы хотите, чтобы элементы меню шли друг под другом */
+    flex-direction: column; /*  Опционально: для вертикального расположения */
+    position: absolute;
+    top: 80px; /*  Регулируйте, чтобы меню не перекрывало хедер */
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9; /*  Добавьте фон, чтобы меню было видно */
+    padding: 20px;
+    z-index: 10; /*  Убедитесь, что меню поверх других элементов */
+}
+
+.nav.active .menu__item {
+    padding: 10px 0; 
+}
+
+.burger_btn {
+  outline: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.burger_btn:before,
+.burger_btn i,
+.burger_btn::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.burger_btn.active i {
+  display: none;
+}
+.burger_btn.active:before {
+  position: absolute;
+  top: 9px;
+  transform: rotate(45deg);
+}
+.burger_btn.active:after {
+  position: absolute;
+  top: 9px;
+  transform: rotate(-45deg);
+}
+
+.burger_btn {
+  display: none;
+}
+
+.Our__process {
+  margin-top: 100px;
+  text-align: center;
+}
+.Our__process-title h3 {
+  padding-bottom: 13px;
+  color: rgba(100, 92, 85, 1);
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Our__process-title h2 {
+  padding-bottom: 47px;
+  color: rgba(27, 26, 26, 1);
+
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.ske__fin__bui {
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.ske__fin__bui div {
+  text-align: center;
+  max-width: 285px;
+}
+.ske__fin__bui p {
+  padding-top: 10px;
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.ske__fin__bui h3 {
+  color: rgba(64, 62, 59, 1);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.ske__fin__bui img {
+  margin-bottom: 15px; 
+  max-width: 100%; 
+  height: auto;
+}
