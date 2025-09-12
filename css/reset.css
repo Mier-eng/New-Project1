@@ -1,0 +1,550 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+ font-style: normal;
+}
+
+@media (min-width: 1440px) {
+  .burger_btn {
+    display: none;
+  }
+}
+
+
+@media (max-width:1300px) {
+    .main-img{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+     .burger_btn {
+        display: flex; 
+       
+    }
+     .burger_btn {
+        margin-right: 32px;
+        margin-right: 0; /* Удаляем отступ, так как кнопка теперь фиксирована */
+     
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   .container6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .Meet-our-Team__title{
+  max-width: 378.66px;
+  padding-right: 0;
+  height: 200px;
+}
+   .Meet-our-Team__title p{
+    text-align: center;
+   }
+   .Meet-our-Team__title h3{
+    text-align: center;
+   }
+    .Meet-our-Team__title button{
+   display: none;
+   }
+   .Big-famely{
+  padding-right: 0;
+}
+}
+@media (max-width:1175px) {
+    .container5{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+  .Featured-Projects-img .Big-Road-Brewery{
+padding: 20px 0;
+
+}
+.New-York{
+  position: absolute;
+ top: 520px;
+ left: 150px;
+}
+.Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 150px;
+}
+}
+@media (max-width: 1024px) {
+  .Reeding__house {
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+  }
+   .burger_btn {
+    margin-right: 20px;
+  }
+   .menu__logo {
+    padding-left: 20px;
+  }
+  .Featured-Projects-text p{
+    text-align: center;
+  }
+  .Featured-Projects-text h2{
+    text-align: center;
+  }
+  .Featured-Projects-img .Big-Road-Brewery{
+padding: 20px 0;
+
+}
+.Get-in-touch{
+  background: rgba(206, 196, 188, 1);
+  padding: 100px 10px;
+}
+.Get-in-touch .container2{
+ display: flex;
+ align-items: center;
+flex-direction: column;
+text-align: center;
+}
+  .container5{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.New-York{
+  position: absolute;
+ top: 520px;
+ left: 150px;
+}
+.Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 150px;
+}
+  .Happy__customers{
+  max-width: 460px;
+  padding-top: 125px;
+  text-align: left;
+  padding-bottom: 125px;
+  margin-left: 75px;
+}
+  .The__marble__staircase{
+ height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+   
+}
+.The__swirling__staircase{
+   height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  
+}
+.The__swirling__staircase .Reeding__house-text{
+  margin-left: 0;
+  padding-left: 0;
+}
+  .container3 {
+    padding-top: 0;
+  }
+  .Reeding__house-text {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+@media (max-width:1023px) {
+    .ske__fin__bui {
+    align-items: center;
+  display: flex; 
+flex-direction: column;
+}
+.ske__fin__bui p {
+  padding-bottom: 20px;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+}
+
+.Happy__customers {
+ margin: 0 auto;
+}
+.Happy__customers h2{
+  text-align: center;
+}
+.Happy__customers h3{
+  text-align: center;
+}
+.Happy__customers p{
+  text-align: center;
+}
+}
+@media (max-width:768px) {
+  .footer .container2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+  .footer{
+  padding: 60px 10px;
+}
+.footer-title {
+margin-bottom: 20px;
+}
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+.Big-famely{
+  padding-right: 0;
+}
+  .nav {
+    column-gap: 30px;
+  }
+
+.our-team{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+
+}
+
+  .Wishbone__title {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .Wishbone h1 {
+    font-size: 45px;
+    line-height: 56px;
+  }
+  .Wishbone__title h3 {
+    text-align: center;
+  }
+  .Wishbone button {
+    color: rgba(27, 26, 26, 1);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+  .Our__firm-title {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0;
+    margin-top: 50px;
+  }
+  .Our__firm-text {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .img-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .burger_btn {
+    display: flex;
+  }
+
+  .Wishbone__title {
+    padding: 40px;
+  }
+  .Our__firm-title {
+    column-gap: 50px;
+  }
+
+  .Reeding__house-text {
+    margin-right: 30px;
+  }
+}
+@media (max-width:600px) {
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 150px;
+}
+  .New-York{
+  position: absolute;
+ top: 520px;
+ left: 150px;
+ 
+}
+}
+@media(max-width:560px)  {
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 120px;
+}
+  .New-York{
+  position: absolute;
+ top: 520px;
+ left:120px;
+}
+}
+@media(max-width:460px)  {
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 90px;
+}
+  .New-York{
+  position: absolute;
+ top: 520px;
+ left:90px;
+}
+}
+@media(max-width:425px)  {
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 70px;
+}
+  .New-York{
+  position: absolute;
+ top: 520px;
+ left:70px;
+}
+}
+
+@media (max-width:375px) {
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 520px;
+left: 60px;
+}
+  .New-York{
+  position: absolute;
+ top: 520px;
+ left: 60px;
+}
+}
+@media (max-width:370px) {
+  .Read-more{
+position: absolute;
+top: 500px;
+left: 50px;
+}
+  .New-York{
+  position: absolute;
+ top: 500px;
+ left: 50px;
+}
+}
+@media (max-width:360px) {
+  .Read-more{
+position: absolute;
+top: 480px;
+left: 50px;
+}
+  .New-York{
+  position: absolute;
+ top: 500px;
+ left: 50px;
+}
+}
+@media (max-width:350px) {
+  .Read-more{
+position: absolute;
+top: 470px;
+left: 50px;
+}
+  .New-York{
+  position: absolute;
+ top: 500px;
+ left: 50px;
+}
+}
+@media (max-width:340px) {
+  .Read-more{
+position: absolute;
+top: 440px;
+left: 50px;
+}
+  .New-York{
+  position: absolute;
+ top: 500px;
+ left: 50px;
+}
+}
+@media (max-width:330px) {
+  .Read-more{
+position: absolute;
+top: 410px;
+left: 50px;
+}
+  .New-York{
+  position: absolute;
+ top: 500px;
+ left: 50px;
+}
+}
+@media (max-width: 320px) {
+  .burger_btn {
+    margin-right: 0;
+  }
+  .menu__logo {
+    padding-left: 0;
+  }
+  .first__two-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 0;
+
+  }
+  .Happy__customers {
+ padding: 50px 10px;
+ margin: 0 auto;
+}
+  .Read-more{
+margin-top: 330px;
+position: absolute;
+top: 390px;
+left: 30px;
+}
+  .New-York{
+  position: absolute;
+ top: 440px;
+ left: 30px;
+  }
+  .first__two-img img{
+   margin-bottom: 30px;
+  }
+  .last__two-img img{
+    margin-bottom: 30px;
+  }
+  .last__two-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
