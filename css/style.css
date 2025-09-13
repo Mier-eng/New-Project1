@@ -1,0 +1,620 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  box-shadow: 11px 11px 25px 0px rgba(9, 7, 37, 0.06);
+  background: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 355px;
+}
+.menu {
+  display: flex;
+  padding: 35px 0;
+}
+.menu__logo {
+  padding-left: 32px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.menu__item {
+  padding-right: 32px;
+}
+.menu__item a:focus{
+  background-color: rgba(27, 26, 26, 1);
+  border-radius: 10px;
+ color: rgba(255, 255, 255, 1);
+  padding: 10px 20px;
+  transition: background-color 0.5s ease;
+}
+.Wishbone {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background: rgba(236, 231, 228, 1);
+}
+.Wishbone h3 {
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.Wishbone h1 {
+  color: rgba(27, 26, 26, 1);
+  padding-bottom: 18px;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70.4px;
+}
+.Wishbone p {
+  color: rgba(64, 62, 59, 1);
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Wishbone button {
+  color: rgba(27, 26, 26, 1);
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 20px;
+  padding-left: 45px;
+}
+.Wishbone__title {
+  padding-top: 77px;
+  padding-right: 60px;
+  padding-left: 40px;
+  width: 610px;
+  margin-left: 60px;
+}
+
+.Our__firm-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  column-gap: 133px;
+}
+.Our__firm-text {
+  max-width: 490px;
+}
+.Our__firm-text p {
+  color: rgba(64, 62, 59, 1);
+  padding-bottom: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Our__firm-title h2 {
+  color: rgba(64, 62, 59, 1);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.img-info {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.img-info h3 {
+  color: rgba(27, 26, 26, 1);
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 275;
+}
+.img-info p {
+  color: rgba(27, 26, 26, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 275;
+}
+
+.Reeding__house {
+  position: relative;
+  margin-top: 100px;
+  height: 600px;
+  background-image: url("../images/IMAGE.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.The__marble__staircase{
+   position: relative;
+  margin-top: 100px;
+  height: 600px;
+  background-image: url("../images/IMAGE 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.The__swirling__staircase{
+   position: relative;
+  height: 600px;
+  background-image: url("../images/IMAGE 3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.The__swirling__staircase{
+   position: relative;
+  height: 600px;
+  background-image: url("../images/IMAGE 3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.The__swirling__staircase .container3{
+ max-width: 1440px;
+  margin: 0 auto;
+ display: flex;
+ justify-content: flex-start;
+}
+.The__swirling__staircase .Reeding__house-text{
+  margin-left: 60px;
+  padding-left: 15px;
+}
+.container3 {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 266px;
+}
+.Reeding__house-text {
+  max-width: 300px;
+  margin-right: 60px;
+  padding-right: 15px;
+  text-align: left;
+}
+.Reeding__house-text h3 {
+  color: rgba(64, 62, 59, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.Reeding__house-text p {
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nav.active .menu {
+    display: flex; /* Или block, если вы хотите, чтобы элементы меню шли друг под другом */
+    flex-direction: column; /*  Опционально: для вертикального расположения */
+    position: absolute;
+    top: 80px; /*  Регулируйте, чтобы меню не перекрывало хедер */
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9; /*  Добавьте фон, чтобы меню было видно */
+    padding: 20px;
+    z-index: 10; /*  Убедитесь, что меню поверх других элементов */
+}
+
+.nav.active .menu__item {
+    padding: 10px 0; 
+}
+
+.burger_btn {
+  outline: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.burger_btn:before,
+.burger_btn i,
+.burger_btn::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.burger_btn.active i {
+  display: none;
+}
+.burger_btn.active:before {
+  position: absolute;
+  top: 9px;
+  transform: rotate(45deg);
+}
+.burger_btn.active:after {
+  position: absolute;
+  top: 9px;
+  transform: rotate(-45deg);
+}
+
+.burger_btn {
+  display: none;
+}
+
+.Our__process {
+  margin-top: 100px;
+  text-align: center;
+}
+.Our__process-title h3 {
+  padding-bottom: 13px;
+  color: rgba(100, 92, 85, 1);
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Our__process-title h2 {
+  padding-bottom: 47px;
+  color: rgba(27, 26, 26, 1);
+
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.ske__fin__bui {
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.ske__fin__bui div {
+  text-align: center;
+  max-width: 285px;
+}
+.ske__fin__bui p {
+  padding-top: 10px;
+  color: rgba(100, 92, 85, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.ske__fin__bui h3 {
+  color: rgba(64, 62, 59, 1);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.ske__fin__bui img {
+  margin-bottom: 15px; 
+  max-width: 100%; 
+  height: auto;
+}
+.Prior__clients{
+  background: rgba(64, 62, 59, 1);
+
+}
+.Happy__customers{
+  max-width: 460px;
+  padding-top: 125px;
+  text-align: left;
+  padding-bottom: 125px;
+}
+.Happy__customers h3{
+  color: rgba(236, 231, 228, 1);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: left;
+text-transform: uppercase;
+}
+.Happy__customers h2{
+color: rgba(255, 255, 255, 1);
+font-family: Poppins;
+font-size: 32px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0%;
+
+}
+.Happy__customers p{
+color: rgba(236, 231, 228, 1);
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+padding-top: 14px;
+padding-bottom: 10px;
+
+}
+.container4{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.four-img{
+ margin: 0 auto;
+ height: 292px;
+
+}
+.first__two-img{
+display: flex;
+column-gap: 96px;
+margin-bottom: 128px;
+}
+.last__two-img{
+display: flex;
+column-gap: 96px;
+
+}
+.Featured-Projects{
+background: rgba(247, 247, 247, 1);
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.Featured-Projects h2{
+color: rgba(27, 26, 26, 1);
+font-family: Poppins;
+font-size: 39px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Featured-Projects p{
+color: rgba(100, 92, 85, 1);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Featured-Projects-text{
+  max-width: 600px;
+  margin-bottom: 42px;
+ padding-left: 16px;
+}
+.container5{
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+.Featured-Projects-img {
+position: relative;
+}
+.Read-more{
+margin-top: 330px;
+position: absolute;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.4px;
+border-radius: 20px;
+background-color: rgba(27, 26, 26, 1);
+padding: 11px 20px;
+color:rgba(255, 255, 255, 1);
+top: 40px;
+left: 450px;
+cursor: pointer;
+
+}
+.Featured-Projects-img .Big-Road-Brewery{
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.View-all-projects{
+  margin-top: 53px;
+  color: rgba(27, 26, 26, 1);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.4px;
+text-align: center;
+border: none;
+background-color: inherit;
+padding: 11px 20px;
+cursor: pointer;
+}
+.New-York{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+}
+.New-York h3{
+color: rgba(100, 92, 85, 1);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: left;
+text-transform: uppercase;
+}
+.New-York p{
+  color: rgba(64, 62, 59, 1);
+font-family: Poppins;
+font-size: 23px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.container6{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 16px;
+}
+.Meet-our-Team{
+  margin-top: 100px;
+}
+.Meet-our-Team__title{
+  max-width: 378.66px;
+  padding-right: 20.66px;
+  height: 392px;
+}
+.Meet-our-Team__title h3{
+color: rgba(64, 62, 59, 1);
+font-family: Poppins;
+font-size: 32px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 14px;
+}
+.Meet-our-Team__title p{
+color: rgba(100, 92, 85, 1);
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.Meet-our-Team__title button{
+  color: rgba(27, 26, 26, 1);
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-right: 255.66px;
+  margin-left: 5px;
+}
+.our-team{
+  display: flex;
+  column-gap: 150.33px;
+}
+.our-team .img-info{
+ margin-bottom: 52px;
+ text-align: left;
+}
+.Big-famely{
+  padding-right: 120.66px;
+}
+.Get-in-touch{
+  background: rgba(206, 196, 188, 1);
+  padding: 100px 136px;
+}
+.Get-in-touch .container2{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ text-align: left;
+}
+.Get-in-touch h3 {
+ color: rgba(100, 92, 85, 1);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.Get-in-touch h2 {
+color: rgba(27, 26, 26, 1);
+font-family: Poppins;
+font-size: 40px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0%;
+
+}
+.Get-in-touch-title{
+  max-width: 570px;
+}
+.footer-img{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer .container2{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  text-align: left;
+}
+ .container2 p{
+color: rgba(100, 92, 85, 1);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
+.footer{
+  padding: 60px 136px;
+}
+.footer-title .menu__logo{
+  padding-left: 0;
+  padding-bottom: 20px;
+}
